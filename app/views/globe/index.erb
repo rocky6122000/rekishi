@@ -1,0 +1,18 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div style="visibility:hidden">
+      <textarea id="main_data"><%= File.open('./public/data/main.kml'){|f| f.read } %></textarea>
+    </div>
+
+    <h2 class="text-center">history</h2>
+    <div class="span3">
+      <input type='button' onclick='buttonClick3()' value='move1'></input>
+      <input type='button' onclick='buttonClick1()' value='move3'></input>
+    </div>
+    <div class="span6 hero-unit">
+      <!--div id="map3d" style="width: 500px; height: 380px;"></div-->
+      <div id="map3d" style="height: 450"></div>
+    </div>
+    <div class="span3"></div>
+  </div>
+</div>

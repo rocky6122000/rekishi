@@ -1,0 +1,67 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="test">
+      <IconStyle>
+        <hotSpot x="0.5" y="-0.1" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+    </Style>
+    <Placemark id="test1">
+      <name>テスト事件1</name>
+      <description><![CDATA[
+      <div class="exp_head">
+      <h3>title</h3>
+      </div>
+      <div class="exp_content">
+      <p>foo baz barな事件がありました</p>
+      <p>関連</p>
+      <a href="#" onclick="alert('Running some JavaScript!');">Alert!</a>
+      </div>
+      ]]>
+      </description>
+      <TimeSpan>
+        <begin>2000-01-14T21:05:02Z</begin>
+        <end>2003-01-14T21:05:20Z</end>
+      </TimeSpan>
+      <Point>
+        <coordinates>-122.536226,37.86047,0</coordinates>
+      </Point>
+      <styleUrl>#test</styleUrl>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>http://iconhoihoi.oops.jp/sozai/icon/167-planet2/icon_6m_64.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>テスト事件2</name>
+      <description>hogehogehoge事件発生!</description>
+      <TimeSpan>
+        <begin>2003-01-14T21:05:20Z</begin>
+        <end>2005-01-14T21:05:43Z</end>
+      </TimeSpan>
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>http://iconhoihoi.oops.jp/sozai/icon/167-planet2/icon_6m_64.png</href>
+          </Icon>
+        </IconStyle>
+      </Style>
+      <Point>
+        <coordinates>-122.536422,37.860303,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="test3">
+      <name>テスト事件3</name>
+      <description>宮崎で事件がおこったぜ</description>
+      <TimeSpan>
+        <begin>2005-01-14T21:05:43Z</begin>
+        <end>2007-01-14T21:06:04Z</end>
+      </TimeSpan>
+      <Point>
+        <coordinates>131.423893,31.911096,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

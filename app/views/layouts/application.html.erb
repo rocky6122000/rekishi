@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RekishiTikyugi</title>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <%= stylesheet_link_tag    "/bootstrap/css/bootstrap.min.css", :media => "all" %>
+    <%= javascript_include_tag "/bootstrap/js/bootstrap.min.js" %>
+    <%= javascript_include_tag "/javascripts/main.js" %>
+  </head>
+  <body onload="init()" style="font-family: arial, sans-serif; font-size: 13px; border: 0;">
+
+    <%= yield %>
+
+  </body>
+</html>
